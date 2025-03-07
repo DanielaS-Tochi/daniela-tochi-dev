@@ -1,11 +1,42 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
-
-<Layout>
-	<Welcome />
-</Layout>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniela Silvana Tochi | Developer & English Teacher</title>
+  <link rel="stylesheet" href="/src/styles/global.css">
+</head>
+<body>
+  <header>
+    <h1>Daniela Silvana Tochi</h1>
+    <nav>
+      <a href="/en">Home</a>
+      <a href="/en#projects">Projects</a>
+      <a href="/en#classes">Classes</a>
+      <a href="/en#contact">Contact</a>
+      <span> | </span>
+      <a href="/es">Español</a>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm a programming student passionate about Web3, blockchain, and ICP, and an online English teacher.</p>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Coming soon: Experiments with Motoko and Internet Computer!</p>
+    </section>
+    <section id="classes">
+      <h2>English Classes</h2>
+      <p>Book a class with me!</p>
+      <a href="https://calendly.com/danielastochi/30min" target="_blank" class="btn">Schedule Now</a>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Daniela Silvana Tochi | <a href="https://github.com/danielas-tochi">GitHub</a></p>
+  </footer>
+</body>
+</html>
